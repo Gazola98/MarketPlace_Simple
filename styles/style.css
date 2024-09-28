@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(150deg, #efefed, #d9f962);
+}
+
+.box-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.left-container > h2 {
+    display: flex;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.img-box {
+    height: 40%;
+}
+
+.img-box > img {
+    height: 350px;
+    border-radius: 18px;
+    box-shadow: 18px 22px 24px rgba(0, 0, 0, 0.651);
+}
+
+/* Fim do lado esquerdo */
+
+/* Começo do lado direito */
+
+.right-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-login {
+    background-color: #f1f1f1;
+    width: 50%;
+    height: 40%;
+    margin: 1.25rem;
+    padding: 1.2rem;
+    border-radius: 20px;
+}
+
+.box-login h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.input-box input {
+    width: 80%;
+    height: 45px;
+    border-radius: 12px;
+    border: none;
+}
+
+.input-box input::placeholder {
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.btn_enter {
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0ff6f;
+    color: #000;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.btn_enter:hover {
+    background-color: #bce721;
+    font-size: 1.25rem;
+}
+
+.criar-acesso {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.25rem;
+    gap: 0.5rem;
+}
+
+.criar-acesso a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.criar-acesso a:hover {
+    font-size: 1.25rem;
+}

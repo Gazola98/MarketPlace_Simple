@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarketPlace</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box-container">
+        <div class="left-container">
+            <h2>Seja bem vindo ao MarketPlace</h2>
+            <div class="img-box">
+                <img src="./img/market-open.jpg">
+            </div>
+        </div>
+
+        <div class="right-container">
+            <div class="box-login">
+                <h2>Faça seu Login</h2>
+                <form class="input-box">
+                    <input type="email" placeholder="Digite seu e-mail..." class="email">
+                    <input type="password" placeholder="Digite sua senha..." class="password">
+                    <button onclick="acessar()" class="btn_enter">Entrar</button>
+                </form>
+                <div class="criar-acesso">
+                    <a href="#">Criar conta</a>
+                    <a href="#">Esqueceu a senha?</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/login.js"></script>
+</body>
+</html>
