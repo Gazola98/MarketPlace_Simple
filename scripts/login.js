@@ -1,13 +1,14 @@
-let email = document.querySelector('.email').value;
-let pass = document.querySelector('.password').value;
 
+function logar() {
+    let email = document.querySelector('.email').value;
+    let pass = document.querySelector('.password').value;
 
-function acessar() {
-    if(email == "admin@teste.com" & pass == "admin") {
-        console.log("Você acessou!");
+    if(email == "admin@teste.com" && pass == "admin") {
+        alert("Você acessou!");
+        window.location.href = "./pages/loja.html";
     } else {
-        console.log("Acesso negado!")
+        alert("Acesso negado!");
     }
-}
+};
 
 

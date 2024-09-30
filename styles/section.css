@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(150deg, #fffff0, #d9ff4f);
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background-color: #f1f1f1c7;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 5rem;
+    padding: 1.25rem;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-left: 2.5rem;
+}
+
+
+.navs {
+    width: 50%;
+}
+
+.nav-bar ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.7rem;
+}
+
+.areas {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.areas a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    transition: 0.2s all linear;
+}
+
+.areas a:hover {
+    font-size: 1.4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img {
+    width: 40px;
+}
