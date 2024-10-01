@@ -9,6 +9,8 @@ body {
     height: 100vh;
 }
 
+/* NAVIGATION BAR */
+
 header {
     background-color: #f1f1f1c7;
     display: flex;
@@ -27,7 +29,7 @@ header {
 
 
 .navs {
-    width: 50%;
+    width: 60%;
 }
 
 .nav-bar ul{
@@ -53,28 +55,31 @@ header {
     font-size: 1.4rem;
 }
 
+/* User */
 
+.usuario {
+    display: flex;
+    gap: 1.5rem;
+    background-color: #c7c7c7;
+    padding: 12px;
+    border-radius: 12px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-img {
+.icon {
     width: 40px;
+}
+
+.name {
+    margin-top: 0.5rem;
+}
+
+
+/* SECTION */
+.itens {
+    display: flex;
+    flex-direction: column;
+}
+
+.itens img {
+    width: 10%;
 }
