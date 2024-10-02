@@ -4,15 +4,16 @@
 }
 
 body {
-    background: linear-gradient(150deg, #fffff0, #d9ff4f);
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(150deg, #fffff0, #ceee5a);
     width: 100vw;
-    height: 100vh;
 }
 
 /* NAVIGATION BAR */
 
 header {
-    background-color: #f1f1f1c7;
+    background-color: #000000c7;
+    color: #f2f2f2f2;
     display: flex;
     justify-content: space-between;
     margin-inline: 5rem;
@@ -35,7 +36,7 @@ header {
 .nav-bar ul{
     display: flex;
     justify-content: space-around;
-    margin-top: 0.7rem;
+    margin-top: 1rem;
 }
 
 .areas {
@@ -46,7 +47,7 @@ header {
 
 .areas a {
     text-decoration: none;
-    color: #000;
+    color: #f2f2f2f2;
     font-weight: 600;
     transition: 0.2s all linear;
 }
@@ -58,8 +59,8 @@ header {
 /* User */
 
 .usuario {
+    width: 15%;
     display: flex;
-    gap: 1.5rem;
     background-color: #c7c7c7;
     padding: 12px;
     border-radius: 12px;
@@ -70,16 +71,68 @@ header {
 }
 
 .name {
+    margin-inline: 1rem;
     margin-top: 0.5rem;
 }
 
 
 /* SECTION */
-.itens {
-    display: flex;
-    flex-direction: column;
+.container-all {
+    width: 80vw;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    margin: 1.2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.itens img {
-    width: 10%;
+.columns {
+    height: 40vh;
+    border: 1px solid #000;
+    margin: 3rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+}
+
+.columns img {
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    width: 35%;
+}
+
+a {
+    text-decoration: none;
+    color: #a5a5a5;
+}
+
+a h2 {
+    font-size: 1.7rem;
+    padding: 5px;
+    margin-left: 1rem;
+}
+
+a h3 {
+    margin-left: 1rem;
+    color: #000;
+}
+
+a p {
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+.buy {
+    width: 20%;
+    background-color: #d5ff61;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
 }
