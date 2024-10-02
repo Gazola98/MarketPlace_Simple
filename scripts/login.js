@@ -1,3 +1,7 @@
+
+
+
+
 function logar() {
     let email = document.querySelector('.email').value;
     let pass = document.querySelector('.password').value;
